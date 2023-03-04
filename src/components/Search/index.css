@@ -1,0 +1,29 @@
+.search-bar {
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar > input {
+    border-radius: 0 1rem 1rem 0;
+    background-color: #7b7b7bbe;
+    width: calc(40% - 35px);
+    height: 40px;
+    box-sizing: border-box;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    padding: 1rem 1rem 1rem 0;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.search-bar > img {
+    background-color: #7b7b7bbe;
+    box-sizing: border-box; 
+    height: 40px;
+    width: 35px;
+    padding: 10px 8px;
+    border-radius: 1rem 0 0 1rem;
+}

@@ -1,0 +1,43 @@
+.category {
+    height: 80px;
+    width: 49%;
+    border: 2px solid #7b7b7bbe;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.category > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 24%;
+    font-size: 0.7rem;
+    padding: 0 10%;
+    box-sizing: border-box;
+    padding-top: 2px;
+}
+
+.category > h3{
+    margin: 0;
+    font-size: 1rem;
+}
+
+.category > div > img{
+    height: 28px;
+    background-color: #7b7b7bbe;
+    border-radius: 20px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.category > div > h4{
+    margin: 0;
+    white-space: nowrap;
+}
+
+.activeCategory {
+    background: linear-gradient(to right, #f27121, #e94057);
+}
